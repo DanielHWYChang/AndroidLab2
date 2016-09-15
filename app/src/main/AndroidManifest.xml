@@ -15,6 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SecondActivity">
+            <intent-filter>
+                <action android:name="com.seneca.lab2b.Daniel" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ThirdActivity"></activity>
     </application>
 
 </manifest>
